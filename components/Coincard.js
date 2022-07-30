@@ -69,7 +69,7 @@ export default function Coincard() {
     <>
     <div className="w-[100%] min-h-[90vh] py-5 flex flex-col items-center">
     
-    <div className="flex rounded-md justify-between px-5 items-center w-[20rem] h-[3rem] shadow-sm">
+    <div className="bg-white flex rounded-md justify-between px-5 items-center w-[20rem] h-[3rem] shadow-sm">
     <input className="w-[90%] h-[100%] outline-none px-5" placeholder="Search here... (Max 250)" onChange={searchHandler}/>
     <div className="h-[40px] w-[40px] rounded-full flex items-center justify-center">
     <i className="bi bi-search"></i>
