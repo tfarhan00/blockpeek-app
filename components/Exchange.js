@@ -82,7 +82,7 @@ export default function Exchange() {
    }) : (<div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
     <p>Exchanges pending...</p>
     </div>)}
-       <button id="Show All" className="border-2 bg-[#1a1a1a] mt-5 text-white border-black rounded-md px-5 h-[2rem] hover:bg-white hover:text-black" onClick={() => showAll()}>{page == 250 ? "Show Less" : "Show More"}</button>
+       <button id="Show All" className="border-2 bg-gray-800 mt-5 text-white border-black rounded-md px-5 h-[2rem] hover:bg-white hover:text-black" onClick={() => showAll()}>{page == 250 ? "Show Less" : "Show More"}</button>
    </div>
   )
 }
