@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>blockpeek</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description " content="Crypto Market Watcher" />
-       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+       <link rel="icon"  href="/favicon-32x32.png" />
       </Head>
     <Component {...pageProps} />
     </>
