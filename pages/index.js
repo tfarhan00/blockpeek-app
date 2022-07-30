@@ -4,7 +4,7 @@ import Switcher from '../components/Switcher'
 
 export default function Home() {
   return (
-   <div>
+   <div className="bg-gradient-to-b from-slate-300 via-blue-100 to-gray-50">
    <Navbar title="blockpeek" />
    <Switcher />
    <Footer />
