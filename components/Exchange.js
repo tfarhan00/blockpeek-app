@@ -36,7 +36,7 @@ export default function Exchange() {
    {data ? data.map(item => {
      return (
    
-     <div key={item.id} className="w-[22rem] h-[8.5rem] mt-5 text-black rounded-xl py-3 px-4 flex flex-col items-center shadow-md justify-between md:w-[60%] font-DM transition-all duration-500">
+     <div key={item.id} className="w-[22rem] h-[8.5rem] mt-5 text-black rounded-xl py-3 px-4 flex flex-col items-center shadow-md justify-between md:w-[60%] font-DM transition-all duration-500 h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100">
      <div className="w-[100%] flex items-center justify-between">
      <div className="flex items-center">
      <div className="h-[35px] w-[35px] overflow-hidden flex items-center">
