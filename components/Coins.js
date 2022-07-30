@@ -44,7 +44,7 @@ export default function Coins({id, name, price, image, rank, market, priceMove})
     </div>
     
      <div className="w-[100%] mt-2 h-[2rem] flex items-center justify-between">
-     <div className="px-2 border-2 border-gray-700 rounded-full bg-gray-700 text-white mx-5">
+     <div className="px-2 border-2 border-gray-800 rounded-full bg-gray-800 text-white mx-5">
    <i className="bi bi-currency-exchange"></i> Trade </div>
    
    <Link href={`/detail/${id}`}>
