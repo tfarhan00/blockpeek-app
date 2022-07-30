@@ -33,7 +33,7 @@ export default function Coins({id, name, price, image, rank, market, priceMove})
       />
     </div>
       
-    <div className="flex justify-center items-center text-center w-[90px]">
+    <div className="flex justify-center items-center mx-1 text-center w-[90px]">
      {name}
     </div>
     
