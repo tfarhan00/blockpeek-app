@@ -5,7 +5,7 @@ import Switcher from '../components/Switcher'
 export default function Home() {
   return (
    <div>
-   <Navbar title="blockpea" />
+   <Navbar title="blockpeek" />
    <Switcher />
    <Footer />
    </div>
