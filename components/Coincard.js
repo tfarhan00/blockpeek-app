@@ -49,12 +49,12 @@ export default function Coincard() {
       setFilterData(data)
       setLoading(false)
       setLoadtext("Please Wait...") 
-      }).catch(err => setError(err))
+      }).catch(err => { setError(err) console.log(err)})
   }, [page, coin])
   
   if (error) return (
       <div className="h-[100vh] w-[100%] flex justify-center items-center text-center px-5 text-[1.8rem] font-DM">
-    <p>{error}</p>
+    <p>server not responding / under maintenance</p>
     </div>
      )
   
