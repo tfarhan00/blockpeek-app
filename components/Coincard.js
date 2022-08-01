@@ -4,7 +4,7 @@ import Coins from './Coins';
 
 export default function Coincard() {
   const [loading, setLoading] = useState(false)
-  const [loadtext, setLoadtext] = useState("Please Wait...")
+  const [loadtext, setLoadtext] = useState("Server under maintenance")
   const [data, setData] = useState(null)
   const [coin, setCoin] = useState(20)
   const [filterData, setFilterData] = useState(data)
