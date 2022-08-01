@@ -49,7 +49,7 @@ export default function Coincard() {
       setFilterData(data)
       setLoading(false)
       setLoadtext("Please Wait...") 
-      }).catch(err => { setError(err) console.log(err)})
+      }).catch(err => setError(err))
   }, [page, coin])
   
   if (error) return (
