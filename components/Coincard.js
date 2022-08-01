@@ -54,7 +54,7 @@ export default function Coincard() {
   
   if (error) return (
       <div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
-    <p>{error}</p>
+    <p>Server not responding / under maintenance</p>
     </div>
      )
   
