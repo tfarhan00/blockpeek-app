@@ -53,7 +53,7 @@ export default function Coincard() {
   }, [page, coin])
   
   if (error) return (
-      <div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
+      <div className="h-[100vh] w-[100%] flex justify-center items-center text-center px-5 text-[1.8rem] font-DM">
     <p>{error}</p>
     </div>
      )
