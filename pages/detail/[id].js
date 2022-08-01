@@ -23,7 +23,7 @@ export default function Detail({ coin }) {
         <meta name="description" content={coin.id} />
       </Head>
    <Navbar title="details" />
-   <div className="w-[100%] flex flex-col items-center font-DM bg-gradient-to-b from-slate-100 via-blue-100 to-gray-50">
+   <div className="w-[100%] flex flex-col items-center font-DM bg-white">
    
     <div className="w-[22rem] h-[14rem] flex items-center justify-center">
     <div className="w-[19rem] flex items-center justify-center">
