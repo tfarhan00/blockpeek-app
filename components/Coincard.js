@@ -4,7 +4,8 @@ import Coins from './Coins';
 
 export default function Coincard() {
   const [loading, setLoading] = useState(false)
-  const [loadtext, setLoadtext] = useState("Server under maintenance")
+  const [loadtext, setLoadtext] = useState("Please wait...")
+  const [error, setError] = useState("")
   const [data, setData] = useState(null)
   const [coin, setCoin] = useState(20)
   const [filterData, setFilterData] = useState(data)
@@ -48,10 +49,14 @@ export default function Coincard() {
       setFilterData(data)
       setLoading(false)
       setLoadtext("Please Wait...") 
-      }).catch(err => console.log(err))
+      }).catch(err => setError(err))
   }, [page, coin])
   
-  
+  if (error) return (
+      <div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
+    <p>{error}</p>
+    </div>
+     )
   
   if (loading) return (
     <div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
