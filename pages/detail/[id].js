@@ -22,8 +22,9 @@ export default function Detail({ coin }) {
         <title>{coin.name} - blockpeek</title>
         <meta name="description" content={coin.id} />
       </Head>
+   <div className="bg-[#F9F5EB]">
    <Navbar title="details" />
-   <div className="w-[100%] flex flex-col items-center font-DM bg-white">
+   <div className="w-[100%] flex flex-col items-center font-DM">
    
     <div className="w-[22rem] h-[14rem] flex items-center justify-center">
     <div className="w-[19rem] flex items-center justify-center">
@@ -94,7 +95,6 @@ export default function Detail({ coin }) {
     <p>ALL TIME HIGH</p>
     <p>${coin.market_data.ath.usd ? coin.market_data.ath.usd.toLocaleString() : "No data"}</p>
     </div>
-    
     </div>
     
     <div id="thirdCard" className="w-[22rem] h-[10rem] mt-2 flex items-center shadow-md font-DM font-bold overflow-hidden rounded-md md:w-[75%]">
@@ -119,11 +119,8 @@ export default function Detail({ coin }) {
     <p className="text-[14px] hover:underline">{(coin.links.twitter_screen_name) ? coin.links.twitter_screen_name : "No twitter account"}</p>
     </a>
     </div>
-    
     </div>
-    
     </div>
-    
    
     <div className="w-[22rem] m-5 md:w-[75%]">
     <div className="font-bold text-[2rem]">
@@ -134,6 +131,7 @@ export default function Detail({ coin }) {
     </div>
     </div>
     
+    </div>
     </div>
    </>
   )
