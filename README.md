@@ -1,10 +1,10 @@
 ## Blockpeek
 
-v 0.1.2 is coming...
+A simple crypto looker by tfarhan
 
-Simple crypto looker by zenova
-
-Still in progress, dark mode and trade aren't available yet
+Entirely made on phone, with :
+- Acode
+- Termux
 
 Now live
 http://blockpeek.vercel.app/
