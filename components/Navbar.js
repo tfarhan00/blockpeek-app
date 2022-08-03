@@ -25,7 +25,7 @@ useEffect(() => {
 }, [open])
 
   return (
-    <div>
+    <>
     <div className={open ? showMenu : hideMenu}>
     <div className=" flex flex-col w-[100%] h-[100%] justify-center items-end text-[2rem] font-DM">
     <ul className="text-end w-[100%] px-10">
@@ -52,6 +52,6 @@ useEffect(() => {
     </div>
   
    </nav>
-
+   </>
   )
 }
