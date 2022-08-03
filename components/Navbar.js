@@ -51,7 +51,7 @@ useEffect(() => {
       <span className={open ? twoClicked : burgerTwo}></span>
     </div>
     
-    </div>
+ 
     
    </nav>
    </div>
