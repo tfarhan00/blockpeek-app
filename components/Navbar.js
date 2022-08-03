@@ -6,9 +6,6 @@ export default function Navbar({title}) {
   const [open, setOpen] = useState(false)
   const [slide, setSlide] = useState(false)
   
- const lightMode = 'w-[1.5rem] h-[1.5rem]  bg-[#1a1a1a] text-white shadow-md flex justify-center items-center rounded-full text-[8px] transition-all duration-500'
- const darkMode = 'w-[1.5rem] h-[1.5rem]  bg-white shadow-md text-black flex justify-center items-center rounded-full text-[8px] translate-x-[2rem] transition-all duration-500'
- 
  
   let burgerOne, burgerTwo;
   let oneClicked, twoClicked;
@@ -49,13 +46,6 @@ useEffect(() => {
     <h1>{title}</h1>
     </div>
     </Link>
-    
-    <div id="dark-toggle" className="w-[110px] flex items-center justify-between h-[90%]">
-    <div onClick={() => setSlide(!slide)} className="relative w-[3rem] h-[1.5rem] border-2 border-black flex items-center rounded-full">
-    <div className={slide ? darkMode : lightMode}>
-    {slide ? <i className="bi bi-moon-stars-fill"></i> : <i className="bi bi-brightness-high-fill"></i>}
-    </div>
-    </div>
     
     <div id="menu" onClick={openNav} className="h-[17px] flex flex-col justify-between items-center z-30">
       <span className={open ? oneClicked : burgerOne}></span>
