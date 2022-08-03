@@ -1,6 +1,8 @@
 ## Blockpeek
 
-A simple crypto looker by tfarhan
+A simple crypto looker
+
+Built with Next.js
 
 Entirely made on phone, with :
 - Acode
