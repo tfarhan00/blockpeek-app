@@ -4,7 +4,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Navbar({title}) {
   const [open, setOpen] = useState(false)
-  const [slide, setSlide] = useState(false)
   
  
   let burgerOne, burgerTwo;
