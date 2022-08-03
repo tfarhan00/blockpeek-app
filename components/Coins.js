@@ -14,7 +14,7 @@ export default function Coins({id, name, price, image, rank, market, priceMove})
   
   return (
     <>
-    <div className="w-[22rem] h-[8rem] shadow-lg rounded-xl mt-3 flex-col bg-white flex justify-center items-end md:w-[70%] font-DM transition-all duration-500 hover:shadow-md">
+    <div className="w-[23rem] h-[8rem] shadow-lg rounded-xl mt-3 flex-col bg-white flex justify-center items-end md:w-[70%] font-DM transition-all duration-500 hover:shadow-md">
     <div className="h-[4rem] flex items-center justify-between py-2 px-3 w-[100%]">
     <div className="w-[2rem]">
      #{rank}
