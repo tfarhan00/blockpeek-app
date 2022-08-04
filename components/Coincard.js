@@ -85,7 +85,7 @@ export default function Coincard() {
      return (
      <>
   
-       <Coins key={item.id} id={item.id} name={item.name} price={item.current_price} image={item.image} rank ={item.market_cap_rank} market={item.market_cap} priceMove={item.price_change_percentage_24h}/>
+       <Coins key={item.id} id={item.id} name={item.name} price={item.current_price} image={item.image} rank ={item.market_cap_rank} market={item.market_cap} priceMove={item.price_change_percentage_24h} symbol={item.symbol}/>
       
        </>
      )
