@@ -5,7 +5,7 @@ export default function Hero() {
    <div className="w-[23rem] h-[23rem] relative  rounded-xl p-5  md:w-[70%] flex justify-center items-center">
    <div className="text-start flex items-center text-gray-800 font-bold text-[2rem]">
    <h1>
-   Searching your favorite <em className="text-amber-500">bitcoins</em>, never been this easy.
+   Searching your favorite <em className="text-amber-500">crypto</em>, never been this easy.
    </h1>
    </div>
    </div>
