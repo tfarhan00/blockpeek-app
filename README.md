@@ -2,7 +2,7 @@
 
 <div align="center">
 <h1>Blockpeek</h1>
-<p>Blockpeek is a simple crypto market looker app that use basic concept of API data fetching</p>
+<p>Blockpeek is a simple crypto market looker app that use Coingecko API for the data</p>
 
 <p><b>Frameworks & Hosting :</b></p>
 <div align="center">
