@@ -32,7 +32,7 @@ useEffect(() => {
     <Link href="/manifesto">
     <li className="origin-right transition-all duration-500 hover:scale-[1.1]"><a>Manifesto</a></li>
     </Link>
-    <a href="https://github.com/tengkufarhan00">
+    <a href="https://github.com/tengkufarhan00/blockpeek-app">
     <li className="origin-right transition-all duration-500 hover:scale-[1.1]"><i className="w-[2rem] h-[2rem] bi bi-github mx-2"></i>GitHub</li>
     </a>
     </ul>
