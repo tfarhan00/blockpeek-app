@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-export default function Coins({id, name, price, image, rank, market, priceMove}) {
+export default function Coins({id, name, price, image, rank, market, priceMove, symbol}) {
   
  let greenPrice = "text-[20px] font-bold text-green-500";
  let redPrice = "text-[20px] font-bold text-red-500";
