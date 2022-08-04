@@ -40,7 +40,7 @@ export default function Detail({ coin }) {
    
     <div id="SupplyContainer" className="w-[22rem] h-[13rem] flex items-center justify-between gap-2 rounded-md md:w-[75%]">
     
-    <div className="flex flex-col h-[13rem] shadow-md rounded-md px-5 items-center justify-center">
+    <div className="flex flex-col h-[13rem] shadow-md rounded-md px-5 items-center bg-white justify-center">
     <p className="font-bold">Dev Score</p>
     <div className={(coin.developer_score < 75 && coin.developer_score > 60) ? devMed : (coin.developer_score < 60) ? devLow : devHigh}>
     {(coin.developer_score === 0) ? "--" : coin.developer_score.toFixed(2)}
@@ -52,7 +52,7 @@ export default function Detail({ coin }) {
     </div>
     </div>
     
-    <div className="flex flex-col h-[13rem] shadow-md rounded-md p-4 justify-evenly items-center grow text-[13px] overflow-hidden md:justify-between md:text-[16px] whitespace-nowrap">
+    <div className="flex flex-col h-[13rem] shadow-md bg-white rounded-md p-4 justify-evenly items-center grow text-[13px] overflow-hidden md:justify-between md:text-[16px] whitespace-nowrap">
     
     <div className="flex flex-col items-center">
     <p className="font-bold">Max Supply</p>
@@ -79,7 +79,7 @@ export default function Detail({ coin }) {
     
     </div>
     
-    <div id="secondCard" className="w-[22rem] h-[7rem] p-5 mt-2 flex justify-between shadow-md  font-DM font-bold overflow-hidden rounded-md text-[12px] md:w-[75%]">
+    <div id="secondCard" className="w-[22rem] h-[7rem] bg-white p-5 mt-2 flex justify-between shadow-md  font-DM font-bold overflow-hidden rounded-md text-[12px] md:w-[75%]">
     <div className="flex flex-col justify-between h-[100%]">
     
     <div className="w-[10rem] h-[2rem] text-green-500 border-2 border-green-500 rounded-md items-center p-1 gap-1 flex justify-center transition-all duration-500 whitespace-nowrap hover:scale-[1.05]">
@@ -97,7 +97,7 @@ export default function Detail({ coin }) {
     </div>
     </div>
     
-    <div id="thirdCard" className="w-[22rem] h-[10rem] mt-2 flex items-center shadow-md font-DM font-bold overflow-hidden rounded-md md:w-[75%]">
+    <div id="thirdCard" className="w-[22rem] h-[10rem] bg-white mt-2 flex items-center shadow-md font-DM font-bold overflow-hidden rounded-md md:w-[75%]">
     
     <div id="first-col" className="h-[8rem] w-[100%] p-5 flex flex-col gap-2 justify-center items-start md:items-center md:justify-center">
     
