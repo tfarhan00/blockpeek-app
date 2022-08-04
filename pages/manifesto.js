@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="manifesto" />
       </Head>
     <nav className="w-100 h-[40px] px-5 flex justify-between items-center font-DM text-[20px] z-2">
-   <Link href="/">
+    <Link href="/">
     <div id="logo" className="h-[20px] flex items-center">
     <h1 className="text-black">Go Back</h1>
     </div>
@@ -21,7 +21,7 @@ export default function Home() {
    <h1 className="text-[3rem] font-bold">Welcome</h1>
    <p className="font-normal text-[1rem]">BLOCKPEEK is a tiny personal project that provides real-time data, charts and information related to cryptocurrencies including price, supply, market cap, etc.<br/>
      Powered By CoinGecko API</p>
-     <p className="font-bold">Hit a follow, would be nice :)</p>
+     <p className="font-bold">Would be nice if you hit a follow, thanks :)</p>
      <div className="w-[22rem] h-[15rem] mt-5 rounded-md flex flex-col items-start">
      
      
