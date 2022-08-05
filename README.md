@@ -19,5 +19,5 @@
 <p><b>Now live : <br>
 http://blockpeek.vercel.app/</b></p>
 
-<p><b><sub>CRAFTED BY ME WITH :iphone:</sub></b></p>
+<p><b><sub>CRAFTED BY TFARHAN, OPTIMIZED FOR :iphone:</sub></b></p>
 </div>
