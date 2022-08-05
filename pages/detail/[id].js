@@ -37,7 +37,7 @@ export default function Detail({ coin }) {
     </div>
     </div>
     </div>
-    <div className="bg-white p-5">
+    
     <div id="SupplyContainer" className="w-[22rem] h-[13rem] flex items-center justify-between gap-2 rounded-md md:w-[26rem]">
     
     <div className="flex flex-col h-[13rem] shadow-md rounded-md px-5 items-center bg-white justify-center">
@@ -131,7 +131,6 @@ export default function Detail({ coin }) {
     </div>
     </div>
     
-    </div>
     </div>
     </div>
    </>
