@@ -5,11 +5,13 @@ import Switcher from '../components/Switcher'
 
 export default function Home() {
   return (
-   <div className="antialiased bg-[#F9F5EB]">
+   <>
+   <div>
    <Navbar title="blockpeek" />
    <Hero />
    <Switcher />
    <Footer />
    </div>
+   </>
   )
 }
