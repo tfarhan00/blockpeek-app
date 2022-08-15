@@ -22,7 +22,7 @@ export default function Detail({ coin }) {
         <title>{coin.name} - blockpeek</title>
         <meta name="description" content={coin.id} />
       </Head>
-   <div className="bg-[#F9F5EB]">
+   <div>
    <Navbar title="details" />
    <div className="w-[100%] flex flex-col items-center font-DM">
    
