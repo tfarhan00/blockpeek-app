@@ -12,11 +12,11 @@ export default function Switcher() {
   return (
     <div>
     <div className="my-7 w-[100%] h-[3rem] flex justify-center items-center font-bold font-DM z-0">
-   <div className="relative w-[12rem] h-[3rem]  bg-white flex items-center rounded-full z-0" onClick={() => setSlide(!slide)}>
-   <div className={slide ? switchMarket : switchCoins}>
-   {slide ? <i className="bi bi-shop-window"></i> : <i className="bi bi-currency-bitcoin"></i>}
-   </div>
-   </div>
+      <div className="relative w-[12rem] h-[3rem] shadow-md bg-white flex items-center rounded-full z-0" onClick={() => setSlide(!slide)}>
+        <div className={slide ? switchMarket : switchCoins}>
+          {slide ? <i className="bi bi-shop-window"></i> : <i className="bi bi-currency-bitcoin"></i>}
+        </div>
+      </div>
    </div>
    {slide ? <Exchange /> : <Coincard />}
    </div>
