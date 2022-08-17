@@ -80,7 +80,7 @@ export default function Coincard() {
     <i className="bi bi-search"></i>
     </div>
     </div>
-   
+   <div className="w-[100%] p-4 md:grid md:grid-cols-2">
    {filterData ? filterData.map(item => {
      return (
      <>
@@ -92,7 +92,8 @@ export default function Coincard() {
    }) : (<div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
     <p>Coins pending...</p>
     </div>)}
-   
+   </div>
+
      <div className="flex mt-5 justify-between items-center p-5 w-[22rem] h-[3rem] font-DMp">
    <button disabled={page == 1} id="prevButt" className="border-2 bg-gray-800 text-white border-black rounded-md px-5 h-[2rem] hover:bg-white hover:text-black" onClick={prevPage}>Prev</button>
    

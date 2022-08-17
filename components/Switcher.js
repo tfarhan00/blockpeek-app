@@ -18,9 +18,7 @@ export default function Switcher() {
         </div>
       </div>
    </div>
-   <div className="bg-orange-400 mx-4 w-[100%] md:grid md:grid-cols-3">
    {slide ? <Exchange /> : <Coincard />}
-   </div>
    </div>
   )
 }
