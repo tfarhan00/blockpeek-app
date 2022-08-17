@@ -80,7 +80,7 @@ export default function Coincard() {
     <i className="bi bi-search"></i>
     </div>
     </div>
-   <div className="bg-orange-300 md:w-[90%] md:justify-items-center md:grid md:grid-cols-2">
+   <div className="bg-orange-300 lg:w-[90%] lg:justify-items-center lg:grid lg:grid-cols-3">
    {filterData ? filterData.map(item => {
      return (
      <>
