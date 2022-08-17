@@ -49,13 +49,13 @@ export default function Exchange() {
      </div>
      <div className="flex flex-col justify-between items-end">
      <div className="text-[15px] text-black rounded-lg font-bold transition-all duration-500 hover:bg-white hover:text-black">
-    <p>
+     <p>
      {item.name}
      </p>
      </div>
      
      <div className="text-[14px]">
-{item.trade_volume_24h_btc.toLocaleString()} BTC
+      {item.trade_volume_24h_btc.toLocaleString()} BTC
      </div>
      <div className="text-[12px]">
       <i className="text-[14px] bi bi-arrow-left-right"></i> 24H VOL.

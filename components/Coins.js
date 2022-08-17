@@ -14,7 +14,7 @@ export default function Coins({id, name, price, image, rank, market, priceMove, 
   
   return (
     <>
-    <div className="w-[23rem] h-[8rem] border-2 border-gray-800 mt-3 flex-col shadow-sm bg-white flex justify-center items-end md:w-[24rem] font-DM transition-all duration-500">
+    <div className="w-[23rem] h-[8rem] rounded-md mt-3 flex-col shadow-md bg-white flex justify-center items-end md:w-[24rem] font-DM transition-all duration-500">
      <div className="h-[4rem] flex items-center justify-between py-2 px-3 w-[100%]">
       <div className="w-[2rem]">
         #{rank}
@@ -49,7 +49,7 @@ export default function Coins({id, name, price, image, rank, market, priceMove, 
      <i className="bi bi-currency-exchange"></i> Trade </div>
      </a>
      <Link href={`/detail/${id}`}>
-       <div className="px-2 border-2 border-gray-800 rounded-full text-black mx-5 hover:bg-gray-800 hover:text-white">
+       <div className="px-2 border-2 border-gray-800 rounded-full text-black mx-5 transition-all duration-500 hover:bg-gray-800 hover:text-white">
      <i className="bi bi-arrow-right"></i> Read More 
      </div>
      </Link>
