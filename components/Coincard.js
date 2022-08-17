@@ -80,18 +80,18 @@ export default function Coincard() {
     <i className="bi bi-search"></i>
     </div>
     </div>
-   <div className="lg:w-[90%] lg:justify-items-center lg:grid lg:grid-cols-3">
-   {filterData ? filterData.map(item => {
-     return (
-     <>
-  
-       <Coins key={item.id} id={item.id} name={item.name} price={item.current_price} image={item.image} rank ={item.market_cap_rank} market={item.market_cap} priceMove={item.price_change_percentage_24h} symbol={item.symbol}/>
-      
-       </>
-     )
-   }) : (<div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
-    <p>Coins pending...</p>
-    </div>)}
+    <div className="lg:w-[90%] lg:gap-1 lg:justify-items-center lg:grid lg:grid-cols-3">
+      {filterData ? filterData.map(item => {
+      return (
+      <>
+    
+        <Coins key={item.id} id={item.id} name={item.name} price={item.current_price} image={item.image} rank ={item.market_cap_rank} market={item.market_cap} priceMove={item.price_change_percentage_24h} symbol={item.symbol}/>
+        
+        </>
+      )
+    }) : (<div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
+      <p>Coins pending...</p>
+      </div>)}
    </div>
 
      <div className="flex mt-5 justify-between items-center p-5 w-[22rem] h-[3rem] font-DMp">

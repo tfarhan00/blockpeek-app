@@ -32,7 +32,7 @@ export default function Exchange() {
     )
   
   return (
-   <div className="min-h-[100vh] w-[100%] flex flex-col items-center my-5 lg:grid lg:grid-cols-3 lg:justify-items-center">
+   <div className="min-h-[100vh] w-[100%] flex flex-col items-center my-5 lg:grid lg:grid-cols-3 lg:justify-items-center lg:gap-1">
    {data ? data.map(item => {
      return (
    
