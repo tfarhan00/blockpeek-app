@@ -122,7 +122,7 @@ export default function Detail({ coin }) {
     </div>
     </div>
    
-    <div className="w-[22rem] m-5 md:w-[26rem]">
+    <div className="w-[22rem] m-5 md:w-[65%]">
     <div className="font-bold text-[2rem]">
     Description
     </div>
