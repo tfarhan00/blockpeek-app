@@ -36,7 +36,7 @@ export default function Exchange() {
    {data ? data.map(item => {
      return (
    
-     <div key={item.id} className="w-[23rem] h-[8.5rem] mt-3 text-black rounded-xl py-3 px-4 flex flex-col items-center justify-between font-DM transition-all duration-500 bg-white">
+     <div key={item.id} className="w-[23rem] h-[8.5rem] mt-3 text-black shadow-lg rounded-xl py-3 px-4 flex flex-col items-center justify-between font-DM transition-all duration-500 bg-white">
      <div className="w-[100%] flex items-center justify-between">
      <div className="flex items-center">
      <div className="h-[35px] w-[35px] overflow-hidden flex items-center">
@@ -69,14 +69,6 @@ export default function Exchange() {
      </div>
      
      </div>
-     
-     
-     
-
-    
-     
-  
-     
   
      )
    }) : (<div className="h-[100vh] w-[100%] flex justify-center items-center text-[1.8rem] font-DM">
